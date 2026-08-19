@@ -30,4 +30,4 @@ Grab the `syllabus-template.md` file from this repository.
 Run the following command in your terminal to compile the input file into a PDF. Be sure to replace `syllabus-template.md` with your input file path and `${outputPath}` with your desired output path (e.g., `output/example.pdf`).
 
 ```bash
-pandoc syllabus-template.md -s -o "${outputPath}" --pdf-engine=typst --pdf-engine-opt=--pdf-standard=ua-1
+pandoc pandoc simple-handout-template.md -s -o "output/example.pdf" --pdf-engine=typst --pdf-engine-opt=--pdf-standard=ua-1 --lua-filter=alt-text.lua
