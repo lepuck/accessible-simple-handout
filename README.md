@@ -6,7 +6,7 @@ This repository provides a simple handout template designed to generate accessib
 
 ## Background
 
-In 2024, the U.S. Department of Justice recently updated Title II of the ADA, introducing new mandates for websites, digital content, and online applications.
+In 2024, the U.S. Department of Justice updated Title II of the ADA, introducing new mandates for websites, digital content, and online applications.
 
 Digital content produced by large public entities must meet [WCAG 2.1 AA](https://www.w3.org/TR/WCAG21/) by April 26, 2027.
 
